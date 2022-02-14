@@ -1,12 +1,12 @@
 <xml>
-  <summary>a_letter_is_not_sent_to_the_post_office_with_russian_letters_in_the_email</summary>
+  <summary>a letter is not sent to the post office with russian letters in the email</summary>
   <severity>critical</severity>
-  <steps_to_reproduce>go_to_the_mail_site",
-    go_to_your_personal_account(login_data_link_to_the_base)
-    press_the_send_email_button
-    in_the_field(to_whom)enter_and_email(example@example.ru)
-    write_any_text_in_the_text_fiele
-    prees_the_send_button</steps_to_reproduce>
-  <expected_result>email_sent</expected_result>
-  <actual_result>the_submit_button_is_inactive</actual_result>
+  <steps_to_reproduce>go to the mail site</steps_to_reproduce>
+    <steps_to_reproduce_1>go to your personal account(login_data_link_to_the_base)</steps_to_reproduce_1>
+    <steps_to_reproduce_2>press the send email button</steps_to_reproduce_2>
+    <steps_to_reproduce_3>in the field(to_whom)enter and email(example@example.ru)</steps_to_reproduce_3>
+    <steps_to_reproduce_4>write any text in the text fiele</steps_to_reproduce_4>
+    <steps_to_reproduce_5>prees the send button</steps_to_reproduce_5>
+  <expected_result>email sent</expected_result>
+  <actual_result>the submit button_is inactive</actual_result>
 </xml>
