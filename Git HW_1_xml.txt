@@ -1,0 +1,56 @@
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер. git clone https://github.com/DeiviFrod/XML.git
+ 23. Внутри локального XML создать файл “new.xml”. touch new.xml
+ 24. Добавить файл под гит. git add new.xml
+ 25. Закоммитить файл. git commit -m "add new.xml"
+ 26. Отправить файл на внешний GitHub репозиторий. git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. - 
+vim new.xml 
+<xml>
+	<full_name>krukovich_vladislav_igorevich</full_name>
+	<age>25_years</age>
+	<number_of_pets>2_pets</number_of_pets>
+	<future_desired_salary>10000000_dollars</future_desired_salary>
+</xml>
+ 28. Отправить изменения на внешний репозиторий.
+git commit -a -m " add"
+git push
+ 29. Создать файл preferences.xml - touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+<xml>
+	<favorite_movie>lord_of_the_rings</favorite_movie>
+	<favorite_serial>spartacus</favorite_serial>
+	<favorite_season>summer</favorite_season>
+	<country_i_would_like_to_visit>usa</country_i_would_like_to_visit>
+</xml>
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skils.xml
+vim skils.xml
+
+<xml>
+	<skils> testing_software, github, json, postman, mobile_testing, SQL, python</skils>
+</xml>
+git add . 
+
+ 32. Сделать коммит в одну строку git commit -m :add new file"
+ 33. Отправить сразу 2 файла на внешний репозиторий. git push
+ 34. На веб интерфейсе создать файл bug_report.xml. нажать add file>create new file> 
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. нажать commit new file
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. Нажать на файл>edit this file(значок карандаша)
+<xml>
+  <summary>a_letter_is_not_sent_to_the_post_office_with_russian_letters_in_the_email</summary>
+  <severity>critical</severity>
+  <steps_to_reproduce>go_to_the_mail_site",
+    go_to_your_personal_account(login_data_link_to_the_base)
+    press_the_send_email_button
+    in_the_field(to_whom)enter_and_email(example@example.ru)
+    write_any_text_in_the_text_fiele
+    prees_the_send_button</steps_to_reproduce>
+  <expected_result>email_sent</expected_result>
+  <actual_result>the_submit_button_is_inactive</actual_result>
+</xml>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. написать комит в cтроке (commit changes)>нажать commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML - git pull
